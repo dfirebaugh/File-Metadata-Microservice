@@ -8,7 +8,6 @@
 var fs = require('fs');
 var express = require('express');
 var multer = require('multer');
-// var upload = multer();
 var app = express();
 var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended:true}));
